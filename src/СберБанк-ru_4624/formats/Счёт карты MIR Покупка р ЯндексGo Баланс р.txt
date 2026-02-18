@@ -1,0 +1,7 @@
+MIR-(\d{4}).*?Покупка\s+(\d[\d\s.,]*)([^\d\s]+)\s+(.+?)\s+Баланс:\s+(-?\d[\d\s.,]*[.,]\d{2})([^\d\s]+)
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;balance;acc_instrument
+
+-----EXAMPLE-----
+Счёт карты MIR-4247 11:19 Покупка 233р ЯндексGo Баланс: 1069.97р
