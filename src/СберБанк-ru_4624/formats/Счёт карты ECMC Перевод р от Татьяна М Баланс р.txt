@@ -1,0 +1,7 @@
+ECMC(\d+)\s+\d{2}:\d{2}\s+Перевод\s+(\d[\d\s.,]*)(?:\s*)(\S+)\s+от\s+(.+?)\s+Баланс:\s+(\d[\d\s.,]*)(?:\s*)(\S+)
+
+-----COLUMNS-----
+syncid;income;instrument;payee;balance;acc_instrument
+
+-----EXAMPLE-----
+Счёт карты ECMC9269 05:10 Перевод 200р от Татьяна М. Баланс: 200р
