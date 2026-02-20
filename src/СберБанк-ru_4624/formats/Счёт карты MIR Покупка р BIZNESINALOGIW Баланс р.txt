@@ -1,0 +1,7 @@
+MIR-(\d{4}).*?Покупка\s+(\d[\d\s.,]*)(\S)\s+(.+?)\s+Баланс:\s+(\d[\d\s\u00A0.,]*(?:[.,]\d+)?)(\S)
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;balance;acc_instrument
+
+-----EXAMPLE-----
+Счёт карты MIR-0678 10:08 Покупка 4500р BIZNESINALOGIW Баланс: 55 333.9р
