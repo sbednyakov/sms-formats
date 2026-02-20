@@ -1,0 +1,7 @@
+Счёт карты VISA(\d{4})\s+\d{2}:\d{2}\s+Перевод\s+(\d[\d\s.,]*)\s*(\S+)\s+от\s+(.+?)\s+Баланс:\s+(\d[\d\s.,]*)\s*(\S+)
+
+-----COLUMNS-----
+syncid;income;instrument;payee;balance;acc_instrument
+
+-----EXAMPLE-----
+Счёт карты VISA8845 13:57 Перевод 3000р от Александр Ш. Баланс: 15 321.4р
