@@ -1,0 +1,7 @@
+СЧЁТ(\d+)\s+\d{2}:\d{2}\s+Выдача\s+(\d[\d\u00A0\s.,]*)[\u00A0\s]*([^\d\s]+).*?Баланс:\s*(\d[\d\u00A0\s.,]*)[\u00A0\s]*([^\d\s]+)
+
+-----COLUMNS-----
+syncid;outcome;instrument;balance;acc_instrument
+
+-----EXAMPLE-----
+СЧЁТ7775 18:25 Выдача 12 000р ATM 60008449 Баланс: 0р
