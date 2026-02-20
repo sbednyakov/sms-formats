@@ -903,11 +903,11 @@ async def generate_sms_format(
         sms_text=sms_text,
         model=classification_model,
     )
-    if sms_type in {"ad", "undefined"}:
+    if sms_type == "ad":
         return SmsFormatGenerationResult(
             sms_format=None,
-            status="failed",
-            reason=f"classification_{sms_type}",
+            status="ad",
+            reason="ad",
             sms_type=sms_type,
         )
 

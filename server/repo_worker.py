@@ -107,14 +107,14 @@ def run_generation_flow(
             input=sms_text,
         )
         outcome = _parse_generator_output(generator_run)
-        if outcome.status == "duplicate":
-            return "duplicate", None, None
+
         if outcome.status in SUCCESS_STATUSES:
             fresh_push_url = github_client.build_clone_url(github_repo)
             _run(["git", "remote", "set-url", "origin", fresh_push_url], cwd=repo_path)
             _run(["git", "push", "-u", "origin", branch_name], cwd=repo_path)
             return outcome.status, branch_name, outcome.commit_title
-        return "failed", None, None
+
+        return outcome.status, None, None
 
 
 def clean_issue_suffix(text: str) -> str:
@@ -156,7 +156,7 @@ async def process_known_company_sms(
         )
         return status
 
-    if status == "duplicate":
+    if status != "failed":
         return status
 
     issue_title = f"Unknown format for {company_name}: {clean_issue_suffix(text)}"
