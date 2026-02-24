@@ -1,7 +1,0 @@
-MIR-(\d{4}).*?перевод\s+(\d[\d\s.,]*)(\S+)\s+(.+?)\s+Баланс:\s+(\d[\d\s.,]*)(\S+)
-
------COLUMNS-----
-syncid;outcome;instrument;payee;balance;acc_instrument
-
------EXAMPLE-----
-Счёт карты MIR-9651 21:50 перевод 2000р Яндекс Баланс: 580р
