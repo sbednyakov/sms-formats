@@ -1,0 +1,7 @@
+Счёт карты\s+\S*?(\d{4})\s+.*?перевод\s+(\d[\d\s.,]*)(\S+)\s+(.+?)\s+Баланс:\s+(\d[\d\s.,]*(?:[.,]\d+)?)\s*(\S+)
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;balance;acc_instrument
+
+-----EXAMPLE-----
+Счёт карты VISA6752 04:13 перевод 1700р Т-Банк Баланс: 52 029.7р
