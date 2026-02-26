@@ -1,7 +1,0 @@
-MIR-(\d+)\s+\d{1,2}:\d{2}\s+Покупка\s+(\d[\d\s.,]*)(р)\s+(\S+)\s+Баланс:\s+(\d[\d\s]*[.,]\d+)(?:\s*)(р)
-
------COLUMNS-----
-syncid;outcome;instrument;payee;balance;acc_instrument
-
------EXAMPLE-----
-Счёт карты MIR-1680 18:31 Покупка 46р KRASAVTOTRANS_TPP Баланс: 31 584.8р
