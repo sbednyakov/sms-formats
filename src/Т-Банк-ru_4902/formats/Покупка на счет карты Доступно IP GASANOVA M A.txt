@@ -1,0 +1,7 @@
+Покупка на\s+(\d[\d\s.,]*)\s*(\S+)\s*,\s*счет карты\s+\*(\d{4})\s+Доступно\s+(-?\d[\d\s.,]*[.,]\d{2})\s*(\S+)\s+║\s*(.+)$
+
+-----COLUMNS-----
+outcome;instrument;syncid;av_balance;acc_instrument;payee
+
+-----EXAMPLE-----
+Покупка на 99 ₽, счет карты *3040 Доступно 32 002,24 ₽ ║ IP GASANOVA M.A.
