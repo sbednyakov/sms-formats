@@ -1,0 +1,7 @@
+Покупка на\s+(\d[\d\s.,]*)\s+(\S+?),\s+кэшбэк\s+(\d[\d\s.,]*)\s+\S+?,\s+(.+?)\s*,\s*счет карты \*(\d{4})\s+Доступно\s+(-?\d[\d\s.,]*[.,]\d{2})\s+(\S+)
+
+-----COLUMNS-----
+outcome;instrument;cashback;payee;syncid;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Покупка на 59,96 BYN, кэшбэк 17 ₽, Любовь М., счет карты *0505 Доступно 180 788,43 ₽ ║ MAGAZIN "SANTA-52"
