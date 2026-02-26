@@ -1,0 +1,7 @@
+(\d[\d\s\u00A0,\.]*)\s*(\S+)\s*—\s*Осталось:\s*(\d[\d\s\u00A0,\.]*)\s*(\S+).*?Счёт карты\s*.*?(\d{4}).*?Покупка в\s*(\S[^\r\n]*)
+
+-----COLUMNS-----
+outcome;instrument;balance;acc_instrument;syncid;payee
+
+-----EXAMPLE-----
+200 ₽ — Осталось: 3 800 ₽ Счёт карты МИР •• 4690 ║ 🧁 Ух ты! Покупка в YesNoMilk
