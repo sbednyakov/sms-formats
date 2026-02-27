@@ -1,7 +1,0 @@
-MIR-(\d+).*?Перевод\s+(\d[\d\s.,]*)\s*(\S+?)\s+от\s+(.+?)\s+Баланс:\s+(-?\d[\d\s.,]*[.,]?\d+)\s*(\S+?)\s+«\s*(.+?)\s*»
-
------COLUMNS-----
-syncid;income;instrument;payee;balance;acc_instrument;comment
-
------EXAMPLE-----
-Счёт карты MIR-8199 09:28 Перевод 20 000р от Елена М. Баланс: 266 636.5р «С днём рождения! »
