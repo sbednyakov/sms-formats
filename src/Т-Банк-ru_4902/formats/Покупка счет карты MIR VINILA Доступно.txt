@@ -1,7 +1,0 @@
-Покупка,\s+счет карты \*(\d{4})\.\s+(\d[\d\s.,]*)\s+(\S+)\.\s+(.+?)\.\s+Доступно\s+(-?\d[\d\s.,]*)\s+(\S+)
-
------COLUMNS-----
-syncid;outcome;instrument;payee;av_balance;acc_instrument
-
------EXAMPLE-----
-Покупка, счет карты *7824. 3000 ₽. MIR VINILA. Доступно 36779 ₽

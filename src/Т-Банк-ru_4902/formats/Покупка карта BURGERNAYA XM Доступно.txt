@@ -1,7 +1,0 @@
-Покупка,\s+карта\s+\*(\d{4})\.\s+(\d[\d\s.,]*)\s+(\S+)\.\s+(.+?)\.\s+Доступно\s+(-?\d[\d\s.,]*[.,]\d{2})\s+(\S+)
-
------COLUMNS-----
-syncid;outcome;instrument;payee;av_balance;acc_instrument
-
------EXAMPLE-----
-Покупка, карта *8018. 730 ₽. BURGERNAYA XM. Доступно 16114,76 ₽

@@ -1,7 +1,0 @@
-Покупка на\s+(\d[\d\s.,]*)\s*([^\s,]+),\s+кэшбэк\s+(\d[\d\s.,]*)\s*[^\s,]+,\s+счет карты\s+\*(\d{4})\s+Доступно\s+(-?\d[\d\s.,]*)\s*([^\s║]+)(?:\s*║\s*.+)?
-
------COLUMNS-----
-outcome;instrument;cashback;syncid;av_balance;acc_instrument
-
------EXAMPLE-----
-Покупка на 660 ₽, кэшбэк 6 ₽, счет карты *2315 Доступно 3 220 ₽ ║ Kosinka coffe
