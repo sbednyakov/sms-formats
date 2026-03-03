@@ -1,0 +1,7 @@
+Пополнение,\s+счет\s+(.+?)\.\s+(\d[\d\s.,]*)\s+\S+\.\s+Доступно\s+(-?\d[\d\s.,]*[.,]\d{2})\s+(\S+)
+
+-----COLUMNS-----
+instrument;income;av_balance;acc_instrument
+
+-----EXAMPLE-----
+Пополнение, счет RUB. 1485 ₽. Доступно 3787,73 ₽
