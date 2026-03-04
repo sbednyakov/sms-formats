@@ -1,0 +1,7 @@
+VISA(\d{4}).*?Покупка по СБП\s+(\d[\d\s.,]*)(\S+)\s+(.+?)\s+Баланс:\s+(\d[\d\s.,]*)(\S+)
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;balance;acc_instrument
+
+-----EXAMPLE-----
+Счёт карты VISA4300 09:18 Покупка по СБП 453.94р Ростелеком_QR Баланс: 8008р
