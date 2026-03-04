@@ -1,0 +1,7 @@
+Счёт карты MIR-(\d{4})\s+\d{2}:\d{2}\s+перевод\s+(\d[\d\s.,]*)(\S+)\s+Баланс:\s+(\d[\d\s.,]*)(\S+)
+
+-----COLUMNS-----
+syncid;outcome;instrument;balance;acc_instrument
+
+-----EXAMPLE-----
+Счёт карты MIR-0601 08:04 перевод 305р  Баланс: 685.46р
