@@ -1,0 +1,7 @@
+MIR-(\d{4}).*?Покупка\s+(\d[\d\s.,]*[.,]\d{2})\s*(\S+)\s+([^\n]+)
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee
+
+-----EXAMPLE-----
+Счёт карты MIR-0242 12:13 Покупка 1229.33р DISKAUNTER D174
