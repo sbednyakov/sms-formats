@@ -1,7 +1,0 @@
-Счёт карты\s+MIR-(\d{4}).*?Оплата\s+(\d[\d\s\u00A0.,]*)\s*([^\s]+)\s+Баланс:\s+(-?\d[\d\s\u00A0.,]*[.,]\d{2})([^\s]+)
-
------COLUMNS-----
-syncid;outcome;instrument;balance;acc_instrument
-
------EXAMPLE-----
-Счёт карты MIR-0678 11:24 Оплата 987.76р  Баланс: 47 548.66р

@@ -1,7 +1,0 @@
-VISA(\d{4}).*?Оплата\s+(\d[\d\s.,]*)(\S{1,5})\s+(.*?)\s+Баланс:\s+(-?\d[\d\s.,]*[.,]\d{2})(\S{1,5})
-
------COLUMNS-----
-syncid;outcome;instrument;payee;balance;acc_instrument
-
------EXAMPLE-----
-Счёт карты VISA2070 15:52 Оплата 10р АО "T-Банк" Баланс: 99.35р
