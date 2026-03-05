@@ -1,0 +1,7 @@
+(\d{2}\.\d{2}\.\d{4}).*?сумма на депозите:\s+(\d[\d\s.,]*[.,]\d{2})\s+([A-Z]{3})
+
+-----COLUMNS-----
+date#dMy;balance;acc_instrument
+
+-----EXAMPLE-----
+04.03.2026 сумма на депозите: 220.13 USD. ║ Home Credit Kazakhstan
