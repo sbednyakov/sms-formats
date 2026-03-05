@@ -1,0 +1,7 @@
+Счёт карты\s+\S+-(\d+)\s+\d{2}:\d{2}\s+Покупка\s+(\d[\d\s.,]*)(\S)\s+(.+?)\s+Баланс:\s+(-?\d[\d\s.,]*[.,]\d{2})(\S)
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;balance;acc_instrument
+
+-----EXAMPLE-----
+Счёт карты МИР-4221 13:23 Покупка 617р IP SEROPYAN N.S Баланс: 3096.80р
