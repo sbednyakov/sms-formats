@@ -1,0 +1,7 @@
+VISA(\d{4})\s+\d{2}:\d{2}\s+(.*?)\s+(\d[\d\s.,]*[.,]\d{2})([^\s]+)\s+Баланс:\s+(-?\d[\d\s.,]*[.,]\d{2})([^\s]+)
+
+-----COLUMNS-----
+syncid;comment;income;instrument;balance;acc_instrument
+
+-----EXAMPLE-----
+Счёт карты VISA0735 14:09 Зачисление зарплаты 110 428.37р  Баланс: 110 428.37р
