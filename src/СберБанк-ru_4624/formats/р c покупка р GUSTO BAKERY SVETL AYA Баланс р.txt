@@ -1,0 +1,7 @@
+р/c \*\*(\d{4}).*?покупка\s+(\d[\d\s.,]*)\s*(\S+)\s+(.+?)\s+Баланс:\s+(-?\d[\d\s.,]*[.,]\d{2})\s*(\S+)
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;balance;acc_instrument
+
+-----EXAMPLE-----
+р/c **0442 (*3339) 12:56 покупка 518.00р GUSTO BAKERY SVETL-AYA Баланс: 36 022.20р
