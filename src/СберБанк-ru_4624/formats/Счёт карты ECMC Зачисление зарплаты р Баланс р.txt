@@ -1,0 +1,7 @@
+Счёт карты ECMC(\d{4})\s+\d{2}:\d{2}\s+(.+?)\s+(\d[\d\s.,]*[.,]\d{2})\s*([^\s]+)\s+Баланс:\s+(-?\d[\d\s.,]*[.,]\d{2})\s*([^\s]+)
+
+-----COLUMNS-----
+syncid;comment;income;instrument;balance;acc_instrument
+
+-----EXAMPLE-----
+Счёт карты ECMC6166 11:10 Зачисление зарплаты 166 108.27р  Баланс: 275 908.27р
