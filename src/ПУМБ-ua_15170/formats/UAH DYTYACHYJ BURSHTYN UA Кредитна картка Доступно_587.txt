@@ -1,4 +1,4 @@
-^([\d\s.,]*\d)\s*([A-Z]{3})\s+(?!Кешб)(.*?)\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*\*(\d{4})\s+.осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s+║\s+(?:Покуп|Списан|Забло).*
+^([\d\s.,]*\d)\s*([A-Z]{3})\s+(?!Кешб)(.*?)\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*\*(\d{4})\s+.осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s+║\s+(?:Покуп|Списан|Забло|Купів).*
 
 -----COLUMNS-----
 outcome;instrument;payee;date#dMy;syncid;av_balance;acc_instrument
@@ -17,3 +17,6 @@ outcome;instrument;payee;date#dMy;syncid;av_balance;acc_instrument
 
 -----EXAMPLE-----
 292.80UAH OLX_DOSTAVKA_UAPAY SOFIEVSKAYA B UA  03-03-2023 09:49  Кредитна картка: *5753  Доступно: 94550.07UAH ║ Заблоковано
+
+-----EXAMPLE-----
+1349.00UAH LIQPAY*Gifty KIYiV UA 10-02-2026 19:25 Кредитна картка: *8787 Доступно: 74722.98UAH ║ Купівля
