@@ -1,7 +1,7 @@
-^([\d\s.,]*\d)\s*([A-Z]{3})\s+(?!Кешб)(.*?)\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+.*\*(\d{4})\s+.осту.*?(-?[\d\s.,]*\d)\s*([A-Z]{3})\s+║\s+(?:Покуп|Списан|Забло|Купів).*
+^.*?([\d\s.,]+?)\s*([A-Za-zА-Яа-я₽]{1,4})(?:\s*/\s*([\d\s.,]+?)\s*([A-Za-zА-Яа-я₽]{1,4}))?.*?(?:\(.*?курс.*?\)\s+)?(.*?)\s+(\d{2}[-./]\d{2}[-./]\d{2,4})\s+\d{2}:\d{2}.*?\*\s?(\d{4}).*?(?:[Дд]оступн\w*):\s*(-?[\d\s.,]+?)\s*([A-Za-zА-Яа-я₽]{1,4}).*?(?:[|║].*?(?:[Кк]уп\w+|[Пп]окуп\w+|[Сс]писан\w+|[Зз]абло\w+))?.*
 
 -----COLUMNS-----
-outcome;instrument;payee;date#dMy;syncid;av_balance;acc_instrument
+op_outcome;op_instrument;outcome;instrument;payee;date#dMy;syncid;av_balance;acc_instrument
 
 -----EXAMPLE-----
 21.00UAH DYTYACHYJ BURSHTYN UA  24-12-2022 16:01  Кредитна картка: *5753  Доступно: 100699.88UAH ║ Покупка
@@ -20,3 +20,9 @@ outcome;instrument;payee;date#dMy;syncid;av_balance;acc_instrument
 
 -----EXAMPLE-----
 1349.00UAH LIQPAY*Gifty KIYiV UA 10-02-2026 19:25 Кредитна картка: *8787 Доступно: 74722.98UAH ║ Купівля
+
+-----EXAMPLE-----
+243.96UAH SILPO ZAPOROZHYE UA 01-01-2026 17:56 Картка: *4538 Доступно: 352927.16UAH  ║ Купівля
+
+-----EXAMPLE-----
+56.48USD / 2439.94UAH (курс 43.20) IHERB IHERB.COM iherb.com NL 06-02-2026 21:55 Кредитна картка: *6070 Доступно: 27511.41UAH ║ Купівля
