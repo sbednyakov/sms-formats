@@ -1,0 +1,7 @@
+СЧЁТ(\d+)\s+\d{2}:\d{2}\s+списание\s+(\d[\d\s.,]*)\s*(\S+)\s+(.+?)\s+https?://\S+\s+Баланс:\s*(-?\d[\d\s.,]*[.,]\d{2})(\S+)
+
+-----COLUMNS-----
+syncid;outcome;instrument;comment;balance;acc_instrument
+
+-----EXAMPLE-----
+СЧЁТ1944 16:46 списание 150р обслуживание счёта за март https://www.sberbank.com/sms/obs Баланс: 57 988.02р
