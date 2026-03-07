@@ -1,0 +1,7 @@
+\D*(\d{4}).*?Выдача\s+(\d[\d\s.,]*)(\S+)\s+(.+?)\s+Баланс:\s*(\d[\d\s.,]*[.,]\d{2})(\S+)
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;balance;acc_instrument
+
+-----EXAMPLE-----
+Счёт карты VISA6883 09:21 Выдача 6000р ATM 60197249 Баланс: 83 096.11р
