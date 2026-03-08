@@ -1,0 +1,7 @@
+Счёт карты\s+(?:\S+-)?(\d+)\s+\d{2}:\d{2}\s+Выдача\s+(\d[\d\s.,]*)\s*([^\d\s]+)\s+(.+?)(?=\s*Баланс:)\s*Баланс:\s+(-?\d[\d\s.,]*)\s*([^\d\s]+)
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;balance;acc_instrument
+
+-----EXAMPLE-----
+Счёт карты MIR-7556 08:24 Выдача 3900р ATM 60018217 Баланс: 700р
