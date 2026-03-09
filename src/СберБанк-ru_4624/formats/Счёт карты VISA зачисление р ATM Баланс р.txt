@@ -1,0 +1,7 @@
+VISA(\d{4}).*?зачисление\s+(\d[\d\s.,]*)\s*(\S+)\s+(.+?)\s+Баланс:\s+(-?\d[\d\s.,]*[.,]\d{2})\s*(\S+)
+
+-----COLUMNS-----
+syncid;income;instrument;payee;balance;acc_instrument
+
+-----EXAMPLE-----
+Счёт карты VISA7751 15:24 зачисление 2500р ATM 60020186 Баланс: 11 027.18р
