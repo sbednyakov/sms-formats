@@ -1,0 +1,7 @@
+ECMC(\d{4})\s+\d{2}:\d{2}\s+Покупка по СБП\s+(\d[\d\s.,]*)(\S+)\s+(.+?)\s+Баланс:\s+(-?\d[\d\s.,]*[.,]\d{2})(\S+)
+
+-----COLUMNS-----
+syncid;outcome;instrument;payee;balance;acc_instrument
+
+-----EXAMPLE-----
+Счёт карты ECMC0669 21:11 Покупка по СБП 911.68р АО "ЕИРЦ СПб" Баланс: 58 584.13р
