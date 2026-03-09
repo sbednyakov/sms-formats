@@ -1,0 +1,7 @@
+Покупка в (.+?)\. (\d[\d\s.,]*)\s+(\S+)\.\s+Карта \*(\d{4}) Баланс\s+(-?\d[\d\s.,]*)\s+(\S+)
+
+-----COLUMNS-----
+payee;outcome;instrument;syncid;balance;acc_instrument
+
+-----EXAMPLE-----
+Покупка в Вкусно и Точка. 2109 RUR. Карта *4667 Баланс 262983 ₽ ║ Покупка по Ozon Карте
